@@ -396,6 +396,11 @@ dd {
   margin-bottom: 1rem;
 }
 
+ol {
+  list-style-position: inside;
+  margin: -2.5em;
+}
+
 /* Set the anchor element to display block */
 .list-group li a {
   display: block;
@@ -477,4 +482,9 @@ dd {
 #topper:hover {
   background-color: #1585cf;
   opacity: .8;
+}
+
+
+.mt-overflow-auto {
+  overflow: auto;
 }
